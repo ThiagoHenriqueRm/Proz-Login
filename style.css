@@ -1,0 +1,61 @@
+/* CSS Parte 1 */
+html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 31, 170);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 100%;
+    border: none;
+}
+.content{
+    width: 500px;
+    height: 500px;
+    padding: 10px 0px 0px 0px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(68, 5, 126, 0.5);
+    color: orange;
+    text-shadow: 0px 0px 10px black;
+}
+#email, #user, #senha{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 0px 10px 0px 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+}
+#OK{
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    text-shadow: 0px 0px 50px black;
+    font-size: 20px;
+}#OK:hover{
+    background-color: blueviolet;
+    color: orange;
+}#OK:active{
+    background-color: orange;
+    color: blueviolet;
+}
+#box{
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+}
